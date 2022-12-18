@@ -31,7 +31,7 @@ li:first-letter {
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 680px;
   margin: 30px auto;
 }
 
@@ -75,4 +75,13 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
